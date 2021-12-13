@@ -1,91 +1,92 @@
 .Palette-container {
-	width: 100vw;
-	max-width: 1000px;
-	height: 100vh;
-	margin: 0 auto;
-	padding: 5vh 16px;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
+  width: 100vw;
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 5vh 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 .Palette-image-container {
-	width: 100%;
-	padding: 0;
-	flex-grow: 0;
+  width: 100%;
+  padding: 0;
+  flex-grow: 0;
+  margin-bottom: -6px;
 }
 .Palette-image {
-	width: calc(100% - 8px);
-	border-radius: 4px;
-	object-fit: cover;
-	max-height: 64vh;
-	margin: 0 4px;
-	box-sizing: border-box;
+  width: calc(100% - 4px);
+  border-radius: 2px;
+  object-fit: cover;
+  max-height: 64vh;
+  margin: 0 2px;
+  box-sizing: border-box;
 }
 .Palette-colors-list {
-	width: 100%;
-	flex: 1 1 50px;
-	display: flex;
+  width: 100%;
+  flex: 1 1 50px;
+  display: flex;
+  margin-bottom: -4px;
 }
 .Color-box-dark {
-	color: #1f1c0c;
+  color: #1f1c0c;
 }
 .Color-box-light {
-	color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .Color-box-dark,
 .Color-box-light {
-	flex: 1 1 50px;
-	margin: 4px;
-	height: calc(100% - 8px);
-	text-transform: uppercase;
-	position: relative;
-	border-radius: 4px;
+  flex: 1 1 50px;
+  margin: 2px;
+  height: calc(100% - 8px);
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 2px;
 }
 .Color-box-dark:hover button,
 .Color-box-light:hover button {
-	opacity: 1;
+  opacity: 1;
 }
 .Color-name {
-	color: inherit;
-	/* font-size: .8rem; */
-	padding-left: 4px;
-	text-transform: lowercase;
+  color: inherit;
+  padding-left: 4px;
+  text-transform: lowercase;
 }
 .Copy-button,
 .Shades-button,
 .Hide-button {
-	outline: none;
-	border: none;
-	cursor: pointer;
-	font-family: inherit;
-	font-weight: 400;
-	font-size: inherit;
-	text-transform: capitalize;
-	padding: 4px;
-	box-sizing: border-box;
-	color: inherit;
-	background-color: rgba(255, 255, 255, 0);
-	position: absolute;
-	display: inline-block;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: inherit;
+  text-transform: capitalize;
+  padding: 4px;
+  box-sizing: border-box;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 .Copy-button {
-	font-size: 1rem;
-	top: 50%;
-	left: 50%;
-	width: 60px;
-	height: 20px;
-	margin-left: -30px;
-	margin-top: -10px;
-	opacity: 0;
-	transition: opacity 0.2s ease-in-out;
+  font-size: 1rem;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 20px;
+  margin-left: -30px;
+  margin-top: -10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 .Shades-button {
-	bottom: 0;
-	right: 0;
+  bottom: 0;
+  right: 0;
 }
 .Hide-button {
-	bottom: 0;
-	left: 0;
+  bottom: 0;
+  left: 0;
 }

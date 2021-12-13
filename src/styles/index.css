@@ -1,26 +1,28 @@
 ::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
 html {
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	height: 100vh;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 body {
-	margin: 0;
-	padding: 0;
-	height: 100vh;
-	font-family: 'Delius Swash Caps', cursive;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Delius Swash Caps', cursive;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale; */
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 #root {
-	margin: 0;
-	padding: 0;
-	height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
